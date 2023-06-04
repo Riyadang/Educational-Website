@@ -1,0 +1,76 @@
+section {
+  width: 100%;
+  height: auto;
+}
+
+.sectionAbout {
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+}
+.sectionAbout--inner-about-title-wr {
+  margin: 0 auto !important;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+.sectionAbout--title {
+  display: inline-block;
+  font-size: 3.5rem;
+  margin: 8rem 0 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+  background-image: linear-gradient(to right, #FF69B4, #fd51a7);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.sectionAbout--about-paragrap {
+  color: #777;
+  margin: 0 auto;
+  line-height: 1.6;
+  padding: 0 3.5rem;
+}
+.sectionAbout--left {
+  position: relative;
+}
+.sectionAbout--left img {
+  width: 55%;
+  display: block;
+  box-shadow: 0px 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  z-index: 5;
+  border-radius: 4px;
+  transition: all 0.2s;
+  outline-offset: 1.4rem;
+}
+.sectionAbout--imagen-1 {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+}
+.sectionAbout--imagen-2 {
+  position: absolute;
+  top: 8rem;
+  right: 0;
+}
+.sectionAbout--imagen-3 {
+  position: absolute;
+  top: 15rem;
+  left: 15%;
+}
+.sectionAbout--photo:hover {
+  outline: 1rem solid #FF69B4;
+  z-index: 10;
+  transform: scale(1.2);
+}
+.sectionAbout--btn {
+  text-decoration: none;
+  background-color: #FF69B4;
+  color: #fff;
+  display: inline-block;
+  padding: 1.3rem 2rem !important;
+  border-radius: 0.8rem;
+  margin-top: 4rem !important;
+  font-size: 1.8rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
